@@ -1,0 +1,15 @@
+---
+server:
+  port: 9090
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+  jpa:
+    hibernate:
+      ddl-auto: create
+logging:
+  level:
+    com:
+      example:
+        kafkaconsumer: info
