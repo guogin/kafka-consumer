@@ -5,6 +5,7 @@ spring:
   kafka:
     consumer:
       auto-offset-reset: earliest
+      bootstrap-servers: localhost:9092
   jpa:
     hibernate:
       ddl-auto: create
